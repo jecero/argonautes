@@ -40,9 +40,9 @@
    
   <?php
 $user = 'id20183160_root';
-$password = '2sW9AUc8%m+vf!1Q'; //To be completed if you have set a password to root
-$database = 'id20183160_argonautess'; //To be completed to connect to a database. The database must exist.
-$port = NULL; //Default must be NULL to use default port
+$password = '2sW9AUc8%m+vf!1Q'; 
+$database = 'id20183160_argonautess'; 
+$port = NULL; 
 $mysqli = new mysqli('localhost',$user, $password, $database, $port);
 
     
@@ -87,7 +87,6 @@ if ($result = $mysqli -> query($sql)) {
 ?>
 
 </main>
-
   
 
 <footer>
